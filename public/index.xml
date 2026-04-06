@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>meowsicist</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on meowsicist</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BPS states and wall-crossing</title>
+      <link>http://localhost:1313/physics/bps-states/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/physics/bps-states/</guid>
+      <description>Introduction to BPS states and the Kontsevich–Soibelman wall-crossing formula.</description>
+    </item>
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;who-is-meowsicist&#34;&gt;who is meowsicist?&lt;/h2&gt;
+&lt;p&gt;Physics graduate working at the intersection of theoretical physics and quantum
+computing. Currently pursuing research opportunities in string theory, lattice QFT,
+and quantum algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;interests&#34;&gt;interests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;quantum computing&lt;/strong&gt; — FPGA acceleration, VQE, QAOA, error mitigation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;theoretical physics&lt;/strong&gt; — lattice QFT, gauge theories, AdS/CFT, string theory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mathematics&lt;/strong&gt; — analysis, topology, Lie groups, algebraic geometry&lt;/li&gt;
+&lt;/ul&gt;
+$$|\text{meowsicist}\rangle = \alpha\,|\text{physics}\rangle + \beta\,|\text{math}\rangle + \gamma\,|\text{qc}\rangle$$</description>
+    </item>
+  </channel>
+</rss>

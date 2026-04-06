@@ -1,0 +1,74 @@
+baseURL: "https://meowsicist.github.io/"
+languageCode: "en-us"
+title: "meowsicist"
+theme: "PaperMod"
+paginate: 8
+
+params:
+  author: "meowsicist"
+  description: "notes from inside the box · physics · math · quantum computing"
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  math: true
+  homeInfoParams:
+    Title: "|ψ⟩ = α|physics⟩ + β|math⟩ + γ|qc⟩"
+    Content: "notes on theoretical physics, mathematics, and quantum computing. expect derivations, code, paper breakdowns, and a cat in superposition."
+  socialIcons:
+    - name: github
+      url: "https://github.com/meowsicist"
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - "$$"
+              - "$$"
+          inline:
+            - - "$"
+              - "$"
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: physics
+      name: physics
+      url: /physics/
+      weight: 10
+    - identifier: math
+      name: math
+      url: /math/
+      weight: 20
+    - identifier: quantum
+      name: quantum
+      url: /quantum/
+      weight: 30
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 40
+    - identifier: research
+      name: research
+      url: /research/
+      weight: 50
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 60
